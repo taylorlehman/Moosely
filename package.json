@@ -1,0 +1,13 @@
+{
+  "name": "moosely",
+  "version": "1.0.0",
+  "description": "Work tracking application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  }
+}

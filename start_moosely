@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+import subprocess
+import time
+import os
+import sys
+
+def main():
+    print("Starting Moosely Server...")
+    
+    # Check if node_modules exists, if not warn user
+    if not os.path.exists("node_modules"):
+        print("Warning: 'node_modules' not found. You may need to run 'npm install' first.")
+
+    # Start the node server as a subprocess
+    try:
+        # Using Popen to run in background
+        server_process = subprocess.Popen(["node", "server.js"], cwd=os.getcwd())
+    except FileNotFoundError:
+        print("Error: 'node' command not found. Please ensure Node.js is installed and in your PATH.")
+        return
+
+    # Give the server a moment to initialize
+    print("Waiting for server to initialize...")
+    time.sleep(2)
+
+    # Check if the process is still running
+    if server_process.poll() is not None:
+        print("Error: Server failed to start. Check console output for details.")
+        return
+
+    print("Server started successfully!")
+    url = "http://localhost:3000"
+    
+    print(f"Launching Chrome at {url}...")
+    try:
+        # MacOS specific command to open Google Chrome
+        subprocess.run(["open", "-a", "Google Chrome", url])
+    except Exception as e:
+        print(f"Could not open Chrome directly: {e}")
+        print("Attempting default browser...")
+        import webbrowser
+        webbrowser.open(url)
+
+    print("\nApp is running. Press Ctrl+C to stop the server.")
+    
+    try:
+        # Keep the script running to keep the server process alive
+        server_process.wait()
+    except KeyboardInterrupt:
+        print("\nStopping server...")
+        server_process.terminate()
+        print("Goodbye!")
+
+if __name__ == "__main__":
+    main()
