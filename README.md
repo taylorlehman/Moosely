@@ -1,28 +1,51 @@
-# Simple Work Tracker
+# Moosely
 
-A single-page HTML application for tracking work, releases, and tasks. No server required.
+A simple, locally-hosted work tracking application designed for managing releases, feature areas, and tasks.
 
-## How to Use
+## Key Features
 
-1.  **Open the Application**:
-    Simply double-click `index.html` to open it in your web browser.
+*   **Asana Import:** Seamlessly migrate your workflow by importing CSV exports directly from Asana.
+*   **Local File Storage:** Your data is saved securely to a local JSON file on your machine, ensuring persistence and privacy.
+*   **Task Management:** Organize tasks by Release and Feature Area.
+*   **Visual Organization:** Automatic color-coding, filtering, and sorting to keep your work organized.
 
-2.  **Import Data**:
-    -   Click the "Import CSV" button (or "Choose File").
-    -   Select your `ScarsdaleBuzz.csv` file.
-    -   The application will parse the file and populate the tracker.
+## Getting Started
 
-3.  **Manage Work**:
-    -   **Add Items**: Use the buttons in the header to add Releases, Feature Areas, CUJs, and Tasks.
-    -   **Edit/Delete**: Use the buttons on each task item.
-    -   **Filter**: Use the "View" dropdown to filter by Feature Area or Release.
-    -   **Sort**: Use the "Sort By" dropdown to organize your list.
+### Prerequisites
+*   Node.js installed
+*   Python 3 installed
 
-4.  **Save Data**:
-    -   **Automatic Saving**: Changes are automatically saved to your browser's `localStorage`. They will persist even if you close the browser (as long as you don't clear your browser cache).
-    -   **Export Backup**: Click "Export JSON" to download a `work_tracker_data.json` file containing all your data.
-    -   **Reset**: Click "Reset" to clear all data and start over.
+### Installation
+First, install the required dependencies:
+```bash
+npm install
+```
+
+### Running the App
+Start the application with a single command:
+```bash
+./start_moosely
+```
+This script will:
+1.  Start the local Node.js server.
+2.  Automatically launch the application in Google Chrome (or your default browser).
+
+## Usage
+
+1.  **Import Data**:
+    -   Click the menu button (⋮) in the header.
+    -   Select "Import CSV".
+    -   Upload your Asana CSV export to instantly populate your tracker.
+
+2.  **Manage Work**:
+    -   **Add Items**: Use the buttons in the header to add Releases, Feature Areas, and Tasks.
+    -   **Edit/Delete**: Use the action buttons on each task item.
+    -   **Filter & Sort**: Use the dropdowns to filter by Feature Area/Release or sort by Date.
+
+3.  **Data Storage**:
+    -   All changes are automatically saved to `data/data.json` in your project folder.
+    -   You can also export a JSON backup via the menu.
 
 ## Data Privacy
 
-All data is processed and stored locally in your browser. No data is sent to any server.
+All data is processed and stored locally on your computer. No data is sent to the cloud or any external servers.
