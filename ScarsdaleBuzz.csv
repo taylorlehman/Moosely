@@ -1,0 +1,55 @@
+﻿Task ID,Created At,Completed At,Last Modified,Name,Section/Column,Assignee,Assignee Email,Start Date,Due Date,Tags,Notes,Projects,Parent task,Blocked By (Dependencies),Blocking (Dependencies),Release Version,Feature Area
+"1213142924080086",2026-02-05,,2026-02-05,The backup script needs to use timestamp in backup file name,Not Started,,,,2026-03-15,,,ScarsdaleBuzz,,,,Directory Launch FF,Ops and KTLO
+"1213046813337201",2026-02-01,,2026-02-01,Build Mobile App (Android),Not Started,,,,2026-05-15,,Release Version: Sunny Prod Launch (w/Subs!)\nNotion Status: Not started,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Mobile App - Android
+"1213046813427990",2026-02-01,,2026-02-01,Build subscription lifecycle,Not Started,,,,2026-05-15,,Release Version: Sunny Prod Launch (w/Subs!)\nNotion Status: Not started,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Subscriptions and Billing
+"1213071410636494",2026-02-01,,2026-02-01,Build provider opt-in expereince,Not Started,,,,2026-04-15,,Release Version: Directory Launch FF\nNotion Status: Not started,ScarsdaleBuzz,,,,Sunny Beta Launch,Directory
+"1213071408411293",2026-02-01,,2026-02-01,Need a regular backup of the data - likely best as a CSV in a GCP bucket,Not Started,,,,2026-03-15,,Release Version: Directory Launch FF\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch FF,Ops and KTLO
+"1213047030381497",2026-02-01,,2026-02-01,Schedule Sunny Meeting,Not Started,,,,2026-04-15,,Release Version: Sunny Beta Launch\nNotion Status: Not started,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213046186412886",2026-02-01,,2026-02-01,Write tests,Not Started,,,,2026-03-15,,Release Version: Directory Launch FF\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch FF,Ops and KTLO
+"1213046186422066",2026-02-01,,2026-02-01,Build out evals framework,Not Started,,,,2026-03-15,,Release Version: Directory Launch FF\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch FF,Ops and KTLO
+"1213071416814938",2026-02-01,,2026-02-01,Support the ability to kick off a sunny request directly from the directory,Not Started,,,,2026-04-15,,Release Version: Sunny Beta Launch\nNotion Status: Not started,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071416814559",2026-02-01,,2026-02-01,Figure out a business email (switch all accounts to it),Not Started,,,,,,Release Version: TBD\nNotion Status: In progress,ScarsdaleBuzz,,,,Administration,
+"1213071420610914",2026-02-01,,2026-02-01,Blog Post - Setting up LLC,Not Started,,,,,,Release Version: TBD\nNotion Status: Not started,ScarsdaleBuzz,,,,PR + Marketing,
+"1213071351300694",2026-02-01,,2026-02-01,Switch GCP to Mercury CC,Not Started,,,,2026-03-15,,,ScarsdaleBuzz,,,,Directory Launch FF,Ops and KTLO
+"1213071351300700",2026-02-01,,2026-02-01,Change LLC Address,Not Started,,,,,,,ScarsdaleBuzz,,,,Administration,
+"1213071351300705",2026-02-01,,2026-02-01,Make Demo Video,Not Started,,,,,,,ScarsdaleBuzz,,,,PR + Marketing,
+"1213071351300720",2026-02-01,,2026-02-01,Check if Sunny can complete user request before starting task,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300724",2026-02-01,,2026-02-01,Add concept of memory - store the facts learned along the way,Not Started,,,,2026-05-15,,,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Sunny
+"1213071351300726",2026-02-01,,2026-02-01,Learn across convos,,,,,,,,,Add concept of memory - store the facts learned along the way,,,,
+"1213071351300727",2026-02-01,,2026-02-01,Learn account info,,,,,,,,,Add concept of memory - store the facts learned along the way,,,,
+"1213071351300728",2026-02-01,,2026-02-01,Remember to user past providers,,,,,,,,,Add concept of memory - store the facts learned along the way,,,,
+"1213071351300729",2026-02-01,,2026-02-01,Schedule follow-up if you don't hear back from provider,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300733",2026-02-01,,2026-02-01,Sunny should confirm with provider day before appointment,Not Started,,,,2026-05-15,,,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Sunny
+"1213071351300736",2026-02-01,,2026-02-01,"If provider requests phone convo, give users number",Not Started,,,,2026-05-15,,,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Sunny
+"1213071351300741",2026-02-01,,2026-02-01,Share address with provider on confirmation,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300744",2026-02-01,,2026-02-01,"When task confirmed, provider summary of conversation with plumber to the user",Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300749",2026-02-01,,2026-02-01,Confirmation summary page should include tips on what to do until service provider arrives,Not Started,,,,2026-05-15,,,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Sunny
+"1213071351300754",2026-02-01,,2026-02-01,Complete A2P 10DLC Compliance,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300757",2026-02-01,,2026-02-01,Enable Sunny to fall back to a second provider for a request,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300759",2026-02-01,,2026-02-01,Enable Sunny to contact multiple providers in paralle,Not Started,,,,2026-05-15,,,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Sunny
+"1213071351300761",2026-02-01,,2026-02-01,Update the algorithm to pick the best plumber,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300763",2026-02-01,,2026-02-01,Make sure Sunny can refer to plumber by name if in database,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300765",2026-02-01,,2026-02-01,Expand Sunny to any service provider type,Not Started,,,,2026-05-15,,,ScarsdaleBuzz,,,,Sunny Prod Launch (w/Subs!),Sunny
+"1213168650259481",2026-02-07,,2026-02-07,"After merging categories, need to hard refresh the page to do it again",Not Started,,,,2026-03-15,,,ScarsdaleBuzz,,,,Directory Launch FF,Directory
+"1213168650259487",2026-02-07,,2026-02-07,"After a category is merged / changed on the admin, does not auto-reflect on directory",Not Started,,,,2026-03-15,,,ScarsdaleBuzz,,,,Directory Launch FF,Directory
+"1213071351300767",2026-02-01,,2026-02-01,Support multiple users on sunny simultaneously,Not Started,,,,2026-04-15,,,ScarsdaleBuzz,,,,Sunny Beta Launch,Sunny
+"1213071351300769",2026-02-01,,2026-02-01,"On account creation, assign users # from Twilio",,,,,,,,,Support multiple users on sunny simultaneously,,,,
+"1213168650259491",2026-02-07,,2026-02-07,"Need to fix which categories show up on top level, which are overflow (And overflow needs to show everything)",Not Started,,,,,,,ScarsdaleBuzz,,,,Directory Launch,Directory
+"1213071416815034",2026-02-01,,2026-02-01,Need to add proper telemetry (across everything),In Progress,,,,2026-03-15,,Release Version: Directory Launch FF\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch FF,Ops and KTLO
+"1213071351300801",2026-02-01,,2026-02-01,Implement,,,,,,,,,Need to add proper telemetry (across everything),,,,
+"1213071351300802",2026-02-01,,2026-02-01,Test,,,,,,,,,Need to add proper telemetry (across everything),,,,
+"1213071351300803",2026-02-01,,2026-02-01,Implement Metrics,,,,,,,,,Need to add proper telemetry (across everything),,,,
+"1213071408946738",2026-02-01,,2026-02-01,Build Mobile App (iOS),In Progress,,,,2026-04-15,,Release Version: Sunny Beta Launch\nNotion Status: Not started,ScarsdaleBuzz,,,,Sunny Beta Launch,Mobile App - iOS
+"1213071351300656",2026-02-01,,2026-02-01,Complete FB Verification,In Progress,,,,2026-02-28,,,ScarsdaleBuzz,,,,Directory Launch,Login / Onboarding
+"1213071351300707",2026-02-01,,2026-02-01,Data Quality,In Progress,,,,2026-02-28,,,ScarsdaleBuzz,,,,Directory Launch,Directory
+"1213071351300791",2026-02-01,2026-02-01,2026-02-01,Add my providers,,,,,,,,,Data Quality,,,,
+"1213071351300792",2026-02-01,2026-02-01,2026-02-01,Add in the body shops from the greenacres Gang chat,,,,,,,,,Data Quality,,,,
+"1213071351300795",2026-02-01,,2026-02-01,Get data quality under 25% incomplete,,,,,,,,,Data Quality,,,,
+"1213046186387782",2026-02-01,2026-02-01,2026-02-01,Switch to FB Login and build admin approval,Complete,,,,2026-02-28,,Release Version: Directory Launch\nNotion Status: In progress,ScarsdaleBuzz,,,,Directory Launch,
+"1213047030382721",2026-02-01,2026-02-10,2026-02-10,Consolidate categories,Complete,,,,2026-02-28,,Release Version: Directory Launch\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch,Directory
+"1213071351300799",2026-02-01,2026-02-01,2026-02-01,Build Tool,,,,,,,,,Consolidate categories,,,,
+"1213071351300800",2026-02-01,2026-02-10,2026-02-10,Run Tool,,,,,,,,,Consolidate categories,,,,
+"1213071397723010",2026-02-01,2026-02-01,2026-02-01,Build a pre-prod environment,Complete,,,,2026-03-15,,Release Version: Directory Launch FF\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch FF,
+"1213071397018037",2026-02-01,2026-02-01,2026-02-05,When you tap a category the search should get clearer,Complete,,,,2026-02-28,,Release Version: Directory Launch\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch,Directory
+"1213071397713540",2026-02-01,2026-02-01,2026-02-01,Get Approval of Scarsdale Buzz Admins,Complete,,,,2026-02-28,,Release Version: Directory Launch\nNotion Status: Not started,ScarsdaleBuzz,,,,Directory Launch,
+"1213071420517682",2026-02-01,2026-02-01,2026-02-01,Need to provide chrome MCP tools to cursor for debugging.,Complete,,,,,,Release Version: TBD\nNotion Status: Not started,ScarsdaleBuzz,,,,,
